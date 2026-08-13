@@ -1,9 +1,9 @@
-name: 定时触发测试-10点05
+name: 定时触发测试-10点55
 
 on:
   schedule:
-    # 临时测试：北京时间 10:05（UTC 02:05）
-    - cron: '5 2 * * *'
+    # 临时测试：北京时间 10:55（UTC 02:55）
+    - cron: '55 2 * * *'
   workflow_dispatch:
 
 permissions:
